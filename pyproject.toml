@@ -1,0 +1,13 @@
+[project]
+name = "apo-whisper"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "ctranslate2>=4.5,<5",
+    "fastapi>=0.115",
+    "faster-whisper==1.2.1",
+    "numpy>=2.4.6",
+    "python-multipart>=0.0.9",
+    "requests>=2.32",
+    "uvicorn[standard]>=0.30",
+]
